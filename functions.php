@@ -1,8 +1,8 @@
 <?php
 
 //class documents 
-require 'casestudy.php';
-require 'card.php';
+require 'class/casestudy.php';
+require 'class/card.php';
 
 function defaultView()
 {
