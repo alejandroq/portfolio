@@ -19,6 +19,7 @@
                             <li><h4>Connect</h4></li>
                             <li><a href="https://www.linkedin.com/in/quesadaalejandro?trk=nav_responsive_tab_profile"><p>linkedin</p></a></li>
                             <li><a href="https://www.twitter.com/redpause"><p>twitter</p></a></li>
+                            <li><a href="https://github.com/alejandroq"><p>github</p></a></li>
                         </ul>
                     </aside>
                 </section>
@@ -35,5 +36,3 @@
         
     </body>
 </html>
-
-      
