@@ -58,6 +58,7 @@ header {
     padding:.0em;
     position:fixed;
     min-height:2em;
+    line-height:.5em;
     background-color:#F7D358;
     background: rgb(247, 211, 88); /* Fall-back for browsers that don't support rgba */
     background: rgba(247, 211, 88, 0.9);
@@ -79,7 +80,7 @@ nav div {
     float:left;
     color:#000000;
     text-align:center;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -moz-transition: all 0.2s ease-in-out 0s;
     -ms-transition: all 0.2s ease-in-out 0s;
@@ -119,7 +120,7 @@ section {
     border-color:#D0F5A9;
     background-color:#FFFFFF;
     padding: 6em 3em 6em 3em; 
-    margin: 4em auto 3em auto;
+    margin: 2.5em auto 3em auto;
     border-radius: .75em .25em .75em .25em;
     -webkit-transition: all 0.1s ease-in-out 0s;
     -moz-transition: all 0.1s ease-in-out 0s;
@@ -320,7 +321,7 @@ section:not(.top) {
     #about section, section {
         width: 100%;
         padding:3em 0em 3em 0em;
-        margin:6em auto 2em auto;
+        margin:3em auto 2em auto;
         border-radius: 0em;
     }
 
