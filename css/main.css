@@ -178,7 +178,7 @@ footer section {
 }
 
 footer aside {
-    width: 33.33%;
+    width: 25%;
 }
 
 footer h4 {
@@ -361,6 +361,7 @@ section:not(.top) {
         border-radius:0em;
     }
 }
+
 
 
 /* ==========================================================================
