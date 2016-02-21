@@ -14,6 +14,12 @@
                             <li><a href="https://dl.dropboxusercontent.com/u/59744229/portfolio%20v3/pdf/resume.pdf"><p>view resume</p></a></li>
                         </ul>
                     </aside>
+                     <aside>
+                        <ul>
+                            <li><h4>Case Studies</h4></li>
+                            <?php printFooterSection(); ?>
+                        </ul>
+                    </aside>
                     <aside>
                         <ul>
                             <li><h4>Connect</h4></li>
@@ -36,3 +42,5 @@
         
     </body>
 </html>
+
+      
