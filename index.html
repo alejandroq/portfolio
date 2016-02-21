@@ -1,0 +1,169 @@
+<!doctype html>
+
+<!-- 
+
+UX/UI Portfolio
+Copyright © 2016 by Alejandro Quesada
+
+-->
+
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Portfolio</title>
+        <meta name="description" content="Alejandro Quesada's UX/UI Portfoliop">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- <script language="javascript" type="text/javascript">
+            xmlhttp = new XMLHttpRequest();
+
+               function getScore(){ 
+                //https://www.youtube.com/watch?v=qqRiDlm-SnY
+                xmlhttp.onreadystatechange = function()
+                {
+                    if(xmlhttp.readyState==4 && xmlhttp.status==200)
+                    {
+                        /* 0 = server request hasn't started
+                        1 = connected to server
+                        2 = server has recieved our request
+                        3 = server processing 
+                        4 = request if is finished & data ready. */
+
+                        document.getElementById('test').innerHTML = xmlhttp.responseText;
+                    } else
+                    {
+                        document.getElementById('test').innerHTML = "<strong>not yet</strong>";
+                    }
+                }
+            }
+
+            xmlhttp.open("GET", "website", true); //(get, location, asychronous)
+            xmlhttp.send();
+        </script> -->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <?php 
+            require 'functions.php';
+            require 'header.php';
+        ?>
+
+            <header>
+                <nav class="navbar" role="navigation">
+                    <h1>Design Portfolio</h1>
+                    <div class="about"><h3>About</h3></div>
+                    <div class="portfolio"><h3>Work</h3></div>
+                    <!-- <a href="http://ec2-52-32-186-90.us-west-2.compute.amazonaws.com/"><div><h3>Blog</h3></div></a> -->
+                </nav>
+            </header> 
+
+            <article id="about">
+
+                <section>
+                    <aside>
+                        <!-- <div class="temp" /> -->
+                        <img class="img" src="img/img1.jpeg">
+                    </aside>
+                    <aside>
+                        <h2> Hello. I'm Alejandro Quesada. </h2>
+                        <p> And you are looking at my portfolio. </p>
+                        <div> <a href="https://dl.dropboxusercontent.com/u/59744229/portfolio%20v3/pdf/resume.pdf"> view resume </a> </div>
+                    </aside>
+                </section>
+
+            </article>
+            <article id="portfolio"> 
+
+                <section class="top">
+                    <aside>
+                        <div class="temp" />
+                    </aside>
+                    <aside>
+                        <h2> Hello World! </h2>
+                        <p> This is our legendary CARD sorting. </p>
+                        <div><a href="index.html#work"> read more </a></div>
+                    </aside>
+                </section>
+
+                <section>
+                    <aside>
+                        <div class="temp" />
+                    </aside>
+                    <aside>
+                        <h2> Hello World! </h2>
+                        <p> This is our legendary CARD sorting. </p>
+                        <div><a href="index.html#work"> read more </a></div>
+                    </aside>
+                </section>
+
+                <section>
+                    <aside>
+                        <div class="temp" />
+                    </aside>
+                    <aside>
+                        <h2> Hello World! </h2>
+                        <p> This is our legendary CARD sorting. </p>
+                        <div><a href="index.html#work"> read more </a></div>
+                    </aside>
+                </section>
+
+            </article>
+
+        <!-- ajax pull off work content 
+
+                <section class="top casestudy">
+                        <h2> Hello World! </h2>
+                        <p> This is our legendary CARD sorting. </p>
+                        <a href="index.html#work"> read more </a>
+                </section>
+
+        -->
+
+        <?php 
+            require 'footer.php';
+        ?>
+            <footer>
+                <section>
+                    <aside>
+                        <ul>
+                            <li><h4>Contact</h4></li>
+                            <li><a href="mailto:quesadar@dukes.jmu.edu?subject=Hey Alejandro!"><p>quesadar@dukes.jmu.edu</p></a></li>
+                        </ul>
+                    </aside>
+                    <aside>
+                        <ul>
+                            <li><h4>Navigation</h4></li>
+                            <li><p class="about">about</p></li>
+                            <li><p class="portfolio">portfolio</p></li>
+                            <!-- <li><a href="http://ec2-52-32-186-90.us-west-2.compute.amazonaws.com/"><p>blog</p></li> -->
+                            <li><a href="https://dl.dropboxusercontent.com/u/59744229/portfolio%20v3/pdf/resume.pdf"><p>view resume</p></a></li>
+                        </ul>
+                    </aside>
+                    <aside>
+                        <ul>
+                            <li><h4>Connect</h4></li>
+                            <li><a href="https://www.twitter.com/redpause"><p>twitter</p></a></li>
+                            <li><a href="https://www.linkedin.com/in/quesadaalejandro?trk=nav_responsive_tab_profile"><p>linkedin</p></a></li>
+                            <!-- <li><a href="">dribbble</a></li> -->
+                            <!-- <li><a href="">github</a></li> -->
+                        </ul>
+                    </aside>
+                </section>
+
+                <div>website & content &copy; 2016 alejandro quesada</div>
+            </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
