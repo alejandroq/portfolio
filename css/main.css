@@ -280,7 +280,7 @@ section:not(.top) {
     }
 
     footer aside {
-        width: 33.3%;
+        width: 25%;
         text-align: left;
     }
 }
@@ -361,7 +361,6 @@ section:not(.top) {
         border-radius:0em;
     }
 }
-
 
 
 /* ==========================================================================
