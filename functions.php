@@ -139,16 +139,21 @@ function printFooterSection()
 {
     require 'connection.php';
 
-    $sql = 'SELECT title FROM cards ORDER BY ID DESC';
+    $sql = 'SELECT ID, title FROM cards ORDER BY ID DESC';
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) 
     {
-        $title = $row['title'];
-
-        if ($title!=null)
+        while ($row = $result->fetch_assoc()) 
         {
-            echo '<li><a href=""><p>' . $title . '</p></a></li>'
+            $id = $row['ID'];
+            $title = $row['title'];
+
+            if ($title!=null)
+            {
+                echo '<li><a href="?study=' . $id . '"><p>' . strtolower($title) . '</p></a></li>';
+                
+            }
         }
     }
 }
