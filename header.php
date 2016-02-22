@@ -33,7 +33,7 @@ Copyright © 2016 by Alejandro Quesada
 
             <header>
                 <nav class="navbar" role="navigation">
-                    <a href="http://52.36.75.68/"><h1>UX/UI Portfolio</h1></a>
+                    <a href="index.php"><h1>UX/UI Portfolio</h1></a>
                     <a href="#top"> <div class="about"><h3>About</h3></div> </a>
                     <a href="#top"> <div class="portfolio"><h3>Work</h3></div> </a>
                     <!--<div class="dysfunctional" style="font-size:.83em"><p>Blog Under Construction</p></div>-->
