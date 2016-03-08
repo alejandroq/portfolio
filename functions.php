@@ -31,13 +31,10 @@ function defaultJS()
     if (!isset($_GET['study'])) 
     {
         echo 
-        '   <script type=\"text/javascript\">
-                var x = 0;
-                    if (x == 0) {
-                        $("header .about").css({textDecoration:"underline", background:"#ECF6CE"});
-                    }
+        "   <script type=\"text/javascript\">
+                $('header .about').css({textDecoration:'underline', background:'#ECF6CE'});
             </script>
-        '; 
+        "; 
     } 
 }
 
